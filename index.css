@@ -1,0 +1,98 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #090909;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-size:20px;
+    text-transform: uppercase;
+    padding: 30px;
+    font-weight: 50;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.main h1{
+    font-size: 100px;
+    font-weight: 100;
+    line-height: 90px;
+    text-transform: uppercase;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 9;
+
+}
+
+.main h1:nth-child(2){
+    margin-top: 200px;
+}
+.main h1:nth-child(3){
+    text-align: center;
+}
+.main h1:nth-child(4){
+    text-align:center;
+}
+img{
+    height: 400px;
+    position: absolute;
+    top: 18%;
+    left: 35%;
+}
+#img3{
+    rotate:15deg;
+}
+#img2{
+    rotate:10deg;
+    width: 300px;
+}
+
+.nav3{
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  justify-content: baseline;
+}
+footer {
+    width: 98%;
+    margin: 130px 0;
+    padding-top: 30px;
+    padding-left: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  footer h3 {
+    width: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+  }
+  footer .center {
+    width: 64%;
+    font-size: 14px;
+    /* text-align: center; */
+  }
+  footer .center p {
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+  }
